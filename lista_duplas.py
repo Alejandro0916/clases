@@ -1,0 +1,12 @@
+n1= int(input("ingresa un priemer numero: "))
+n2= int(input("ingresa un segundo numero: "))
+n3= int(input("ingresa un tercer numero: "))
+n4= int(input("ingresa un cuarto numero: "))
+n5= int(input("ingresa un quinto numero: "))
+n6= int(input("ingresa un sesto numero: "))
+n7= int(input("ingresa un septimo numero: "))
+n8= int(input("ingresa un octavo numero: "))
+n9= int(input("ingresa un noveno numero: "))
+n10= int(input("ingresa un decimo numero: "))
+lista=[n1,n2,n3,n4,n5,n6,n7,n8,n8,n10]
+print("los numeros que usted eligio esta en la sigiente lista: ",lista)
