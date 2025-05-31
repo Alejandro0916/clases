@@ -6,7 +6,7 @@
 # lista = [tupla,cantidad]
 # dicionario = { "producto":lista
 #               }
-# cf= precio_unitario * cantidad 
+# cf= precio_unitario * cantidad
 # print("si precio total del producto es: ",cf)
 
 # print("------------------------------------------------------------------------------------\n")
@@ -18,7 +18,7 @@
 # cantidad_1 = int(input("ingresa la cantidad comprada: "))
 # print("SEGUNDO PRODUCTO\n")
 # segundo_producto_2 = input("ingresa el segundo producto comprado: ")
-# precio_uni_2 = float(input("ingrese precio unitario del segundo producto: ")) 
+# precio_uni_2 = float(input("ingrese precio unitario del segundo producto: "))
 # cantidad_2 = int(input("ingresa la cantidad comprada: "))
 # print("TERCER PRODUCTO\n")
 # primer_producto_3 = input("ingresa el tercer producto comprado: ")
