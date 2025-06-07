@@ -68,11 +68,53 @@
 # else: 
 #     print("por no ser cliente vip no tienes descuento por lo tanto debes pagar", producto)
 
-print("Ejercicio 9") 
-numero = int(input("ingresa un numero porfavor: "))
-if numero % 5 == 0 and numero % 3 == 0 :
-    print("su numero es multiplo de 5 y 3")
-else : 
-    print("su numero no es multiplo de 5 y 3")
+# print("Ejercicio 9") 
+# numero = int(input("ingresa un numero porfavor: "))
+# if numero % 5 == 0 and numero % 3 == 0 :
+#     print("su numero es multiplo de 5 y 3")
+# else : 
+#     print("su numero no es multiplo de 5 y 3")
 
-print("Ejercicio 10") 
+# print("Ejercicio 10") 
+# dividendo = int(input("ingresa un numero para dividir: "))
+# divisor1 = int(input("ingrese el primer divisor: "))
+# divisor2 = int(input("ingrese el segundo divisor: "))
+# if dividendo % divisor1 ==0 and dividendo % divisor2 == 0 :
+#     print("su numero es divisible por los dos numeros")
+# else : 
+#     print("su numero no es divisible por los dos numeros")
+
+# print("*******EJERCICIOS CON LISTAS (CON CONDICIONALES)\n")
+# print("Ejercicio 11")
+# n1 = int(input("ingresa un primer numero: "))
+# n2 = int(input("ingresa un segundo numero: "))
+# n3 = int(input("ingresa un tercer numero: "))
+# n4 = int(input("ingresa un cuarto numero: "))
+# n5 = int(input("ingresa un quinto numero: "))
+# lista = [n1,n2,n3,n4,n5]
+# print("esta es el orden", lista)
+# if lista [2] > 10 :
+#     print("el tercer numero es mayor que 10")
+# else :
+#     print("el tercer numero no es mayor a 10")
+
+# print("Ejercicio 12")
+# lista = [3, 5, 7, 9]
+# numero = int(input("ingresa un numero para saber si lo adivinas: "))
+# if numero == 7 :
+#     print("su numero es correcto",lista)
+# else :
+#     print("su numero no es correcto")
+# print("Ejercicio 13")
+# n1 = int(input("ingresa un primer numero: "))
+# n2 = int(input("ingresa un segundo numero: "))
+# n3 = int(input("ingresa un tercer numero: "))
+# n4 = int(input("ingresa un cuarto numero: "))
+# lista = [n1,n2,n3,n4]
+# ope = n1 + n2 
+# if ope > 10 :
+#     print("la suma de los numero es mayor a 10")
+# else :
+#     print("su numero es menor a 10")
+    
+print("Ejercicio 14")

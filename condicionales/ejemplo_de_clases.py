@@ -11,4 +11,3 @@ elif ope > 200:
     print("C es mayor que 200 pero menor que 300")
 else:
     print("C no cumple con las condiciones")
-    
