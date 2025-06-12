@@ -216,3 +216,18 @@ if tup1==tup2:
     print("Tuplas iguales")
 else: 
     print("Tuplas diferentes")
+    
+print("----------------------------------------------------------------------------------------------------------------")
+
+print("Ejercicio 21")
+diccionario1={
+    "Nombre":"Juan",
+    "Edad":17 }
+if diccionario1["Edad"]>=18:
+     print("Adulto")
+else:
+    print("Menor de edad")
+    
+print("----------------------------------------------------------------------------------------------------------------")
+
+print("Ejercicio 22")
