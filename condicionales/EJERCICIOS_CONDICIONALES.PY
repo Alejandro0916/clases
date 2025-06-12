@@ -8,11 +8,11 @@ print("-------------------------------------------------------------------------
 
 print("EJERCICIO 1")
 numero = float(input("ingresa un numero para verificar si es positivo,negativo o cero: "))
-if numero > 0 :
+if numero >= 1:
     print("el numero es positvo")
-elif numero < 0 : 
+elif numero <=-1 : 
     print("el numero es negativo")
-else : 
+elif numero == 0 : 
     print("el numero es cero")
 
 print("----------------------------------------------------------------------------------------------------------------")
@@ -150,4 +150,6 @@ else :
 
 print("----------------------------------------------------------------------------------------------------------------")
 
-print("Ejercicio 14")
+lista = ["amarillo","azul","verde"]
+if lista [1] == "morado" :
+    print("")
