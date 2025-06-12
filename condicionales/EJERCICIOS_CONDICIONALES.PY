@@ -150,6 +150,69 @@ else :
 
 print("----------------------------------------------------------------------------------------------------------------")
 
+print("Ejercicio 14")
+lista=["Ana", "Luis", "Pedro", "Marta"]
+name=lista[3]
+if name:
+    print("Nombre correcto")
+else:
+    print("Nombre diferente")
+
+print("----------------------------------------------------------------------------------------------------------------")
+
+print("Ejercicio 15")
 lista = ["amarillo","azul","verde"]
-if lista [1] == "morado" :
-    print("")
+print(lista)
+lista[1]= "azul"
+print("lista actualizada",lista)
+
+print("----------------------------------------------------------------------------------------------------------------")
+
+print("Ejercicio 16")
+tupla=(5, 8, 12, 20)
+if tupla[0] < tupla[3]:
+     print("Es de Orden ascendente")
+else:
+     print("Es de Orden descendente")
+
+print("----------------------------------------------------------------------------------------------------------------")
+
+print("Ejercicio 17")
+tupla=(25, 32, 28)
+if tupla[1] >30:
+     print("Edad mayor a 30")
+else: 
+     print("Edad menor o igual a 30")
+  
+print("----------------------------------------------------------------------------------------------------------------")
+  
+print("Ejercicio 18")
+tupla=(1, 2, 3)
+print("Tupla: " ,tupla)
+lista = list(tupla)
+if lista[1] == 2:
+    lista[1] = 10
+    print("Es posible cambiarla")
+else:
+     print("No es posible")
+tupla = tuple(lista)
+print("tupla actualizada la tupla quedo:", tupla)
+
+print("----------------------------------------------------------------------------------------------------------------")
+
+print("Ejercicio 19")
+tupla= (4, 9)
+if tupla[1]>5:
+    print("Coordenada alta")
+else: 
+    print("Coordenada baja")
+
+print("----------------------------------------------------------------------------------------------------------------")
+
+print("Ejercicio 20")
+tup1=(3, 4)
+tup2=(3, 5)
+if tup1==tup2:
+    print("Tuplas iguales")
+else: 
+    print("Tuplas diferentes")
