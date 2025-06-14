@@ -231,3 +231,31 @@ else:
 print("----------------------------------------------------------------------------------------------------------------")
 
 print("Ejercicio 22")
+diccionario = {
+    "nombre": "carlos"
+}
+diccionario["ciudad"] = "bogota"
+print(f"el diccionario se le agrego otra cosas y quedo de la siguiente manera{diccionario}")
+
+print("----------------------------------------------------------------------------------------------------------------")
+
+print("Ejercicio 24")
+diccionario = {
+    "producto": "pan",
+    "precio" : 1200}
+if "precio" in diccionario :
+    print("el valor si existe y es : ",diccionario["precio"])
+else:
+    print("el valor no existe")
+
+print("----------------------------------------------------------------------------------------------------------------")
+
+print("Ejercicio 25")
+diccionario = {
+    "pan": 1200 ,
+    "leche" : 2000
+}
+if "pan" in diccionario :
+    print("el pan si esta y su valor es de",diccionario["pan"])
+else :
+    print("el valor no existe")
